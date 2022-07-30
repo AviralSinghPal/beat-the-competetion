@@ -1,0 +1,80 @@
+body{
+    
+    background-image: url("../images/backcover.svg");
+    background-position: center;
+    background-size: auto;
+    background-position: 40vw;
+    font-family: Roboto;
+    /* background-clip: ; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.main-div>nav{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 40px;
+}
+
+.nav-item{
+    display: inline-block;
+    font-size: large;
+    padding: 0px 20px;
+}
+.intro-section{
+    display: flex;
+    margin: 40px 40px;
+}
+button{
+    background-image: linear-gradient(to right, #965CF2 , #FF8ADC);
+    /* background-position: 1000px 1000px; */
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+}
+
+.left-section>h1{
+    color: #3E4794;
+    font-size: 70px;
+}
+.left-section>h4{
+    font-weight: 100;
+    /* word-spacing: 1ch; */
+    line-height: 30px;
+    /* text-emphasis:; */
+    color: grey;
+}
+.learn-more-btn{
+    padding: 10px 30px;
+    font-size: large;
+    font-weight: 600;
+    
+}
+.signin-btn{
+    font-size: medium;
+    padding: 10px 20px;
+}
+.vector-img{
+    position: relative;
+    right: 100px;
+    top: 400px;
+}
+
+.vector-dot{
+    position: relative;
+    top: 300px;
+    right: 150px;
+}
+
+
+.intro {
+    /* border: 2px solid black; */
+    width: 900px;
+    position: relative;
+    bottom: 150px;
+    /* background: red; */
+  }
+  
