@@ -77,4 +77,20 @@ button{
     bottom: 150px;
     /* background: red; */
   }
+  .burger{
+    display: none;
+  }
   
+  @media screen and (max-width: 800px) {
+    .intro{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    
+    
+  }
