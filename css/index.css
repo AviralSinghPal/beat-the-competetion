@@ -83,13 +83,18 @@ button{
   
   @media screen and (max-width: 800px) {
     .intro{
-        display: none;
+        margin-top: 100px;
+        width: 100%;
+        /* display: none; */
     }
     .burger{
         display: block;
     }
     .nav-items{
         display: none;
+    }
+    .intro-section{
+        flex-direction: column-reverse;
     }
     
     
